@@ -14,7 +14,7 @@ $ npm run dev
 # build for production and launch server
 $ npm run build
 $ npm start
-
+　
 # generate static project
 $ npm run generate
 ```
@@ -32,3 +32,4 @@ export default {
   layout: 'single'
 }
 ```
+default.vueをトップページ用、下層ページをsingle.vue等とした場合、下層ページ全てに layout: 'single'を指定しなければいけないため、default.vueを下層ページ用にして、home.vue等をトップページ用のレイアウトにするのが良い
