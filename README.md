@@ -20,4 +20,15 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
-# nuxt-practice02
+
+##layout
+特に指定しない場合/layout/default.vueが使用される
+
+別のレイアウトを指定する場合は/layout/***.vueで作成して
+ページコンポーネントのlayoutキーに指定
+
+```javascript
+export default {
+  layout: 'single'
+}
+```
