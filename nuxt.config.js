@@ -2,7 +2,9 @@ import pkg from './package'
 
 export default {
   mode: 'universal',
-
+  server: {
+    port: 9000, // デフォルト: 3000
+  },
   /*
   ** Headers of the page
   */

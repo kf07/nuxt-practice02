@@ -1,6 +1,13 @@
 <template>
   <div>
+    <span>default layout</span>
+    <AppNavigation />
+    <hr>
     <nuxt />
+    <hr>
+    <footer>
+      footer
+    </footer>
   </div>
 </template>
 
@@ -53,3 +60,9 @@ html {
   background-color: #35495e;
 }
 </style>
+<script>
+  import AppNavigation from '../components/AppNavigation'
+  export default {
+    components: { AppNavigation }
+  }
+</script>
